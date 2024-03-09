@@ -1,0 +1,105 @@
+
+body{
+    border: 1px solid #E5E7EB;
+    height: 100vh;
+    width: 100vw;
+    background: #F3F4F6;
+}
+.toast {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: Hug (64px);
+    top: 442.98px;
+    left: 20px;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: #FFFFFF;
+}
+
+.success {
+    border: 1px solid green;
+    color: green;
+}
+
+.danger {
+    border: 1px solid red;
+    color: red;
+}
+
+.avatar {
+    box-shadow: 0px 1px 2px 0px #00000014;
+    color: #6B7280;
+    background: #FFFFFF;
+
+}
+
+.message-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+}
+
+.message{
+    flex-grow: 1;
+    width: 100%;
+    font-family: TT Hoves Pro;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.message-avatar{
+    color: #111928;
+}
+.description {
+    font-family: TT Hoves Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-variation-settings: 'wdth' 100, 'CTGR' 0;
+
+}
+.cta {
+    width: 91px;
+    height: 26px;
+    padding: 4px, 12px, 4px, 12px;
+    border-radius: 100px;
+    border: 1px;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+    font-family: TT Hoves Pro;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.cta-success {
+    background: #00AC80;
+}
+.cta-danger {
+    background: #FF6464;
+}
+.cta-avatar {
+    background: #FFFF00;
+    color: #112127;
+}
+.wrapper-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.wrapper-desc-avatar {
+    margin: 0 40px;
+}
